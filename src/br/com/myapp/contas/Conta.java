@@ -27,6 +27,10 @@ public class Conta {
         this.titular = titular;    
     }
     
+    public String testeJava(){
+    	return "teste";
+    }
+    
     public int getTotaldeContas(){
         return Conta.totalDeContas;
         
